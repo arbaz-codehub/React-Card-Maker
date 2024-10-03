@@ -1,0 +1,16 @@
+.layoutPicker {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 20px;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

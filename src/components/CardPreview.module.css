@@ -1,0 +1,39 @@
+.previewContainer {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.previewTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 350px;
+  min-height: 200px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.jobTitle,
+.companyName {
+  margin: 0;
+}

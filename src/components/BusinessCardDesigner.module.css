@@ -1,0 +1,116 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.tabButton {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.tabButton:hover {
+  background-color: #e0e0e0;
+}
+
+.tabContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputGroup label {
+  font-weight: bold;
+}
+
+.inputGroup input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.designOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.savedDesigns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.savedDesignButton {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.savedDesignButton:hover {
+  background-color: #e0e0e0;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.downloadButton,
+.saveButton,
+.resetButton {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.downloadButton {
+  background-color: #4CAF50;
+}
+
+.saveButton {
+  background-color: #008CBA;
+}
+
+.resetButton {
+  background-color: #f44336;
+}
+
+.previewSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

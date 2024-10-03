@@ -1,0 +1,24 @@
+.colorPicker {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.colorInput {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+}
+
+.textInput {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
